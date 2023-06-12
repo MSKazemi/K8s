@@ -1,4 +1,4 @@
-# K8s
+# K8s on Kind
 Kind is a Kubernetes SIGs project that allows you to run local Kubernetes clusters using Docker containers. As its name suggests, kind spins up k8s clusters in Docker containers called nodes. This results in faster Kubernetes set up compared to VM-based Kubernetes like minikube and microk8s.
 
 - Kind is **K**ubernetes-**in**-**D**ocker

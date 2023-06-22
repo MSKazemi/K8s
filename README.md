@@ -47,3 +47,7 @@ kubectl is a command-line tool used for interacting with Kubernetes clusters. It
 
 
 https://kind.sigs.k8s.io/docs/user/quick-start/
+
+## YouTube Video
+Check it out [here](https://youtu.be/srXZX7paFoc)!
+

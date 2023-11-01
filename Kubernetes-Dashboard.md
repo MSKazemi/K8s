@@ -1,3 +1,4 @@
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -12,3 +13,4 @@ spec:
   selector:
     k8s-app: kubernetes-dashboard
   type: LoadBalancer
+```

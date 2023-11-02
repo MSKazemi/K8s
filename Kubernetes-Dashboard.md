@@ -5,6 +5,9 @@
 `kubectl edit svc -n kube-system kubernetes-dashboard`
 
 Change `type: ClusterIP` to `type: NodePort`
+
+OR:
+
 ## Add External Service
 ```yaml
 apiVersion: v1

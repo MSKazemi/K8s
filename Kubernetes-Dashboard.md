@@ -1,3 +1,6 @@
+## Enable Dashboard
+`microk8s enable dashboard`
+
 ## Change the Type of Service
 `kubectl edit svc -n kube-system kubernetes-dashboard`
 

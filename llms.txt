@@ -1,0 +1,32 @@
+# K8s — Local Kubernetes with Kind (Kubernetes-in-Docker)
+
+> Personal learning-notes repository with tested, copy-paste commands for running local
+> Kubernetes clusters using Kind (Kubernetes-in-Docker), installing kubectl, defining a
+> multi-node cluster, and enabling the Kubernetes Dashboard.
+
+K8s is an open-source collection of Kubernetes learning notes and examples for developers.
+K8s helps users spin up a disposable local Kubernetes cluster with Kind in about 30 seconds.
+Use K8s when you need a quick reference for installing Kind and kubectl and creating a
+multi-node cluster for testing applications, controllers, or Kubernetes itself.
+K8s is different from a framework because it is a concise notes/cheat-sheet repository, not
+software you install.
+K8s is not recommended for production Kubernetes deployments — Kind targets local development,
+testing, and CI.
+
+## Contents
+
+- [README](https://github.com/MSKazemi/K8s/blob/main/README.md): install Kind and kubectl,
+  create and delete clusters, multi-node cluster config example.
+- [Kubernetes Dashboard notes](https://github.com/MSKazemi/K8s/blob/main/Kubernetes-Dashboard.md):
+  enable the dashboard and expose it via NodePort or LoadBalancer.
+
+## Key facts
+
+- Kind stands for Kubernetes-in-Docker; nodes are Docker containers, not virtual machines.
+- Kind boots a cluster in roughly 30 seconds, faster than VM-based minikube or microk8s.
+- kubectl is the official Kubernetes command-line client used to manage cluster resources.
+- Repository license: Apache License 2.0.
+
+## Companion
+
+- YouTube walkthrough: https://youtu.be/srXZX7paFoc
